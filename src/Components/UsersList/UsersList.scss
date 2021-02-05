@@ -1,5 +1,20 @@
+@import "../../style/color.scss";
+@import "../../style/fonts.scss";
+
 .UsersList {
-    border: 1px solid black;
-    width: 200px;
-    height: 400px;
+    
+    height: inherit;
+    border-right: 2px solid $color-grey;
+}
+
+.UsersList--title {
+    @include font(16px,30px,bold,$color-black);
+    border-bottom: 2px solid $color-grey;
+    height: 35px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.UsersList--users {
+    padding: 5px 0 0 10px;
 }

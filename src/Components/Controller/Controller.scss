@@ -1,0 +1,40 @@
+@import "../../style/color.scss";
+
+.Controller {
+    outline: none;
+}
+
+.Controller--wrap {
+    display: flex;
+    height: 40px;
+}
+
+.Controller--input {
+    width: 95%;
+    height: 100%;
+    box-sizing: border-box;
+    border:none;
+    border-right: 2px solid $color-grey;
+    outline: none;
+    padding-left: 10px;
+}
+
+.Controller--button {
+    cursor: pointer;
+    width: 5%;
+    height: 100%;
+    background: url(../../img/telegram.svg) no-repeat center;
+    border: none;
+    outline: none;
+}
+
+@media (max-width: 1280px) {
+    .Controller--button {
+        cursor: pointer;
+        width: 40px;
+        height: 100%;
+        background: url(../../img/telegram.svg) no-repeat center;
+        border: none;
+        outline: none;
+    }
+}

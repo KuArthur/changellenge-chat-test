@@ -13,11 +13,17 @@ export default function Controller(props) {
     }
     
     return (
-        <form onSubmit = {handleSendMessage}>
-            <input  onChange = {handleTextChange} 
-                    value = {props.value}
-            />
-            <button>send</button>
-        </form>
+        <div className = 'Controller'>
+            <form onSubmit = {handleSendMessage}>
+                <div className = 'Controller--wrap'>
+                    <input  onChange = {handleTextChange} 
+                            value = {props.value}
+                            placeholder = 'Введите ваше сообщение'
+                            className = 'Controller--input'
+                    />
+                    <button className = 'Controller--button'></button>
+                </div>
+            </form>
+        </div>
     )
 }

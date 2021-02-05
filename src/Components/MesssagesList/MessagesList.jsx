@@ -11,7 +11,7 @@ export default function MessagesList(props) {
         <div className = 'MessagesList'>
                 {messages.map((el,i) => (
                     <div className = 'MessagesList--message'> 
-                        <p className = "MessagesList--text" key = {i}>{el}</p>
+                        <p className = 'MessagesList--text' key = {i}>{el}</p>
                         <img className = 'MessagesList--photo' src = {photo} alt = "" />
                     </div>
                     

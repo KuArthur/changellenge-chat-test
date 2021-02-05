@@ -1,8 +1,20 @@
-.App {
-  text-align: center;
-}
+@import "./style/color.scss";
 
-.App-1 {
+.Chat {
   display: flex;
+  justify-content: center;
+  height: 600px;
+  border: 2px solid $color-grey;
+  width: 80%;
+  margin: auto;
 }
 
+.Chat--userList {
+  width: 20%;
+  height: 100%;
+}
+
+.Chat--messageControl {
+  display: inline-block;
+  width: 80%;
+}
