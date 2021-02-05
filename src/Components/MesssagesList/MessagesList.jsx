@@ -2,17 +2,20 @@ import {React} from 'react';
 
 import './MessagesList.scss';
 
+import photo from "../../img/user.svg";
 
 export default function MessagesList(props) {
     let messages = props.messages;
     
     return (
         <div className = 'MessagesList'>
-            <ol>
                 {messages.map((el,i) => (
-                    <li className = "MessagesList--message" key = {i}>{el}</li>
+                    <div className = 'MessagesList--message'> 
+                        <p className = "MessagesList--text" key = {i}>{el}</p>
+                        <img className = 'MessagesList--photo' src = {photo} alt = "" />
+                    </div>
+                    
                 ))}
-            </ol>
         </div>
     )
 }

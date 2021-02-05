@@ -1,8 +1,8 @@
 import {React} from 'react';
 
-import './Input.scss';
+import './Controller.scss';
 
-export default function Input(props) {
+export default function Controller(props) {
     const handleTextChange = e => {
         props.onTextChange(e.target.value);
     }
