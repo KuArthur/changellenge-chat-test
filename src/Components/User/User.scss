@@ -1,0 +1,17 @@
+@import "../../style/color.scss";
+@import "../../style/fonts.scss";
+
+.User {
+    display: flex;
+    align-items: center;
+}
+
+.User--photo {
+    width: 40px;
+    height: 40px;
+}
+
+.User--name {
+    @include font(14px,17px,bold,$color-black);
+    margin-left: 10px;
+}
