@@ -1,10 +1,12 @@
 [
     {
+        "id": 1,
         "name": "Иван Иванов",
         "img": "/img/user1.png"
     },
     {
-        "name": "Анна Анновна",
+       "id": 2,
+        "name": "Аdgfgdfgнна Анновна",
         "img": "/img/user2.png"
     }
 ]

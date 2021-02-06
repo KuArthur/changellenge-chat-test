@@ -4,15 +4,15 @@ import './UsersList.scss';
 
 import User from "../User/User"
 
-export default function UsersList(props) {
+export default function UsersList({ users, onUserSelect, selectedUserId }) {
+
     return (
         <div className = 'UsersList'>
         <div className = 'UsersList--title'>Список друзей:</div>
         <div className = 'UsersList--users'>
-            {props.users.map((el,i) => (
-                <User   name = {el.name}
-                        img_url = {el.img}
-                        key = {i}
+            {users.map(user => (
+                <User key={user.id} user={user} isSelected={user.id === selectedUserId}
+                      onClick = {onUserSelect}
                 />
             ))}
         </div>

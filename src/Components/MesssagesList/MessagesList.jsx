@@ -10,11 +10,10 @@ export default function MessagesList(props) {
     return (
         <div className = 'MessagesList'>
                 {messages.map((el,i) => (
-                    <div className = 'MessagesList--message'> 
-                        <p className = 'MessagesList--text' key = {i}>{el}</p>
+                    <div className = 'MessagesList--message' key = {i}> 
+                        <p className = 'MessagesList--text'>{el}</p>
                         <img className = 'MessagesList--photo' src = {photo} alt = "" />
                     </div>
-                    
                 ))}
         </div>
     )
