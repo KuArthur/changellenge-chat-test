@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/changellenge-chat-test/static/css/main.5f6b9b5d.chunk.css",
-    "main.js": "/changellenge-chat-test/static/js/main.236e9677.chunk.js",
-    "main.js.map": "/changellenge-chat-test/static/js/main.236e9677.chunk.js.map",
+    "main.js": "/changellenge-chat-test/static/js/main.e3827b86.chunk.js",
+    "main.js.map": "/changellenge-chat-test/static/js/main.e3827b86.chunk.js.map",
     "runtime-main.js": "/changellenge-chat-test/static/js/runtime-main.72dd029c.js",
     "runtime-main.js.map": "/changellenge-chat-test/static/js/runtime-main.72dd029c.js.map",
     "static/js/2.7bbe06e2.chunk.js": "/changellenge-chat-test/static/js/2.7bbe06e2.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.72dd029c.js",
     "static/js/2.7bbe06e2.chunk.js",
     "static/css/main.5f6b9b5d.chunk.css",
-    "static/js/main.236e9677.chunk.js"
+    "static/js/main.e3827b86.chunk.js"
   ]
 }
