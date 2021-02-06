@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/KuArthur/changellenge-chat-test/static/css/main.05720a38.chunk.css",
-    "main.js": "/KuArthur/changellenge-chat-test/static/js/main.c0249c2d.chunk.js",
-    "main.js.map": "/KuArthur/changellenge-chat-test/static/js/main.c0249c2d.chunk.js.map",
-    "runtime-main.js": "/KuArthur/changellenge-chat-test/static/js/runtime-main.3ee05c4e.js",
-    "runtime-main.js.map": "/KuArthur/changellenge-chat-test/static/js/runtime-main.3ee05c4e.js.map",
-    "static/js/2.15372995.chunk.js": "/KuArthur/changellenge-chat-test/static/js/2.15372995.chunk.js",
-    "static/js/2.15372995.chunk.js.map": "/KuArthur/changellenge-chat-test/static/js/2.15372995.chunk.js.map",
-    "static/js/3.db7bcae9.chunk.js": "/KuArthur/changellenge-chat-test/static/js/3.db7bcae9.chunk.js",
-    "static/js/3.db7bcae9.chunk.js.map": "/KuArthur/changellenge-chat-test/static/js/3.db7bcae9.chunk.js.map",
-    "index.html": "/KuArthur/changellenge-chat-test/index.html",
-    "static/css/main.05720a38.chunk.css.map": "/KuArthur/changellenge-chat-test/static/css/main.05720a38.chunk.css.map",
-    "static/js/2.15372995.chunk.js.LICENSE.txt": "/KuArthur/changellenge-chat-test/static/js/2.15372995.chunk.js.LICENSE.txt",
-    "static/media/Controller.scss": "/KuArthur/changellenge-chat-test/static/media/telegram.11c9a720.svg",
-    "static/media/user.a3d9eecd.svg": "/KuArthur/changellenge-chat-test/static/media/user.a3d9eecd.svg"
+    "main.css": "/changellenge-chat-test/static/css/main.6b6dd0bd.chunk.css",
+    "main.js": "/changellenge-chat-test/static/js/main.c0249c2d.chunk.js",
+    "main.js.map": "/changellenge-chat-test/static/js/main.c0249c2d.chunk.js.map",
+    "runtime-main.js": "/changellenge-chat-test/static/js/runtime-main.16210904.js",
+    "runtime-main.js.map": "/changellenge-chat-test/static/js/runtime-main.16210904.js.map",
+    "static/js/2.15372995.chunk.js": "/changellenge-chat-test/static/js/2.15372995.chunk.js",
+    "static/js/2.15372995.chunk.js.map": "/changellenge-chat-test/static/js/2.15372995.chunk.js.map",
+    "static/js/3.db7bcae9.chunk.js": "/changellenge-chat-test/static/js/3.db7bcae9.chunk.js",
+    "static/js/3.db7bcae9.chunk.js.map": "/changellenge-chat-test/static/js/3.db7bcae9.chunk.js.map",
+    "index.html": "/changellenge-chat-test/index.html",
+    "static/css/main.6b6dd0bd.chunk.css.map": "/changellenge-chat-test/static/css/main.6b6dd0bd.chunk.css.map",
+    "static/js/2.15372995.chunk.js.LICENSE.txt": "/changellenge-chat-test/static/js/2.15372995.chunk.js.LICENSE.txt",
+    "static/media/Controller.scss": "/changellenge-chat-test/static/media/telegram.11c9a720.svg",
+    "static/media/user.a3d9eecd.svg": "/changellenge-chat-test/static/media/user.a3d9eecd.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3ee05c4e.js",
+    "static/js/runtime-main.16210904.js",
     "static/js/2.15372995.chunk.js",
-    "static/css/main.05720a38.chunk.css",
+    "static/css/main.6b6dd0bd.chunk.css",
     "static/js/main.c0249c2d.chunk.js"
   ]
 }
