@@ -2,13 +2,13 @@ import {React} from 'react';
 
 import './Controller.scss';
 
-export default function Controller(props) {
+export default function Controller({onSendMessage, onTextChange,value}) {
     const handleTextChange = e => {
-        props.onTextChange(e.target.value);
+        onTextChange(e.target.value);
     }
 
     const handleSendMessage = e => {
-        props.onSendMessage()
+        onSendMessage()
         e.preventDefault();
     }
     
@@ -17,7 +17,7 @@ export default function Controller(props) {
             <form onSubmit = {handleSendMessage}>
                 <div className = 'Controller--wrap'>
                     <input  onChange = {handleTextChange} 
-                            value = {props.value}
+                            value = {value}
                             placeholder = 'Введите ваше сообщение'
                             className = 'Controller--input'
                     />

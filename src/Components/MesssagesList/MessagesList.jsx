@@ -4,9 +4,7 @@ import './MessagesList.scss';
 
 import photo from "../../img/user.svg";
 
-export default function MessagesList(props) {
-    let messages = props.messages;
-    
+export default function MessagesList({messages}) {
     return (
         <div className = 'MessagesList'>
                 {messages.map((el,i) => (

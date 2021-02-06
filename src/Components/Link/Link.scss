@@ -1,0 +1,7 @@
+@import "../../style/color.scss";
+@import "../../style/fonts.scss";
+
+.Link {
+    text-decoration: none;
+    @include font (13px,16px,bold,$color-blue);
+}

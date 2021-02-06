@@ -7,6 +7,7 @@
     flex-direction: column;
     padding: 15px;
     overflow: auto;
+    overflow-x: hidden;
     background: $color-lightgrey;
     height: 88%;
     border-bottom: 2px solid $color-grey;
@@ -22,13 +23,15 @@
 
 .MessagesList--text {
     position: relative;
+    display: inline-block;
     @include font (13px,16px,normal,$color-white);
     margin: 0;
     background: $color-blue;
     padding: 10px 5px;
     border-radius: 6px;
     width: inherit;
-    word-wrap: break-word;
+    word-wrap: break-word; //TODO: посмотреть, работает ли в ie
+    word-break: break-word;
     text-align: left;
     &::after {
         content: '';
@@ -45,4 +48,14 @@
     height: 30px;
     border-radius: 50%;
     margin-left: 20px;
+}
+
+@media (max-width: 767px) {
+    .MessagesList {
+        height: 385px;
+    }
+
+    .MessagesList--message {
+        max-width: 75%;
+    }
 }

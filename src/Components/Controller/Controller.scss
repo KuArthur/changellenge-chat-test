@@ -24,17 +24,19 @@
     width: 5%;
     height: 100%;
     background: url(../../img/telegram.svg) no-repeat center;
+    background-size: 30px;
     border: none;
     outline: none;
 }
 
 @media (max-width: 1280px) {
     .Controller--button {
-        cursor: pointer;
-        width: 40px;
-        height: 100%;
-        background: url(../../img/telegram.svg) no-repeat center;
-        border: none;
-        outline: none;
+        width: 40px; 
+    }
+}
+
+@media (max-width: 767px) {
+    .Controller--wrap {
+        height: 37px;
     }
 }
